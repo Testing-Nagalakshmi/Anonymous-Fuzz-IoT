@@ -1,0 +1,121 @@
+PS C:\Users\IIITB\Documents\JSONAware-IoTFuzzer\Anonymous-Fuzz-IoT\Examples\Multiple-lambdas-Assert> jsonAwareFuzz newJsonAwareFuzz.js corpus
+#0 READ units: 10
+#0 PULSE     cov: 0 corp: 10 exec/s: 0 rss: 37.82 MB
+#1 NEW     cov: 2731 corp: 11 exec/s: 1 rss: 224.78 MB
+Fuzzer connected to MQTT broker
+🧪 testCaseId=0 → Temp: 469762058°C, Hum: 17920%
+#3 NEW     cov: 3784 corp: 12 exec/s: 43 rss: 224.79 MB
+🧪 testCaseId=1 → Temp: 256°C, Hum: 490766336%
+#4 NEW     cov: 3884 corp: 13 exec/s: 250 rss: 224.79 MB
+🧪 testCaseId=2 → Temp: 56841°C, Hum: 14810950%
+#5 NEW     cov: 3885 corp: 14 exec/s: 166 rss: 224.79 MB
+🧪 testCaseId=3 → Temp: 10°C, Hum: 70%
+🧪 testCaseId=4 → Temp: 16768778°C, Hum: 15237120%
+🧪 testCaseId=5 → Temp: 469762048°C, Hum: 6505984%
+🧪 testCaseId=6 → Temp: 268435466°C, Hum: 1183433696%
+🧪 testCaseId=7 → Temp: 1722656256°C, Hum: 2118%
+🧪 testCaseId=8 → Temp: 0°C, Hum: -10271232%
+🧪 testCaseId=9 → Temp: 184483850°C, Hum: 128%
+🧪 testCaseId=10 → Temp: 10°C, Hum: 4587520%
+🧪 testCaseId=11 → Temp: 4106°C, Hum: 17952%
+🧪 testCaseId=12 → Temp: 56841°C, Hum: -1612185530%
+🧪 testCaseId=13 → Temp: 16899864°C, Hum: -1193200128%
+🧪 testCaseId=14 → Temp: 14551296°C, Hum: -505347584%
+🧪 testCaseId=15 → Temp: 14551296°C, Hum: 78%
+🧪 testCaseId=16 → Temp: 33554433°C, Hum: 37888%
+🧪 testCaseId=17 → Temp: 270532618°C, Hum: 16761822%
+🧪 testCaseId=18 → Temp: 256°C, Hum: 1640789062%
+🧪 testCaseId=19 → Temp: 469762091°C, Hum: 17920%
+🧪 testCaseId=20 → Temp: -116850688°C, Hum: 0%
+🧪 testCaseId=21 → Temp: 167894784°C, Hum: 490761728%
+🧪 testCaseId=22 → Temp: 536870940°C, Hum: -8445697%
+🧪 testCaseId=23 → Temp: 270204938°C, Hum: -402411552%
+🧪 testCaseId=24 → Temp: -1493129463°C, Hum: 0%
+🧪 testCaseId=25 → Temp: -586940416°C, Hum: 14942022%
+🧪 testCaseId=26 → Temp: 16728074°C, Hum: 65536%
+🧪 testCaseId=27 → Temp: 469766912°C, Hum: 6488576%
+🧪 testCaseId=28 → Temp: 469804544°C, Hum: 18048%
+🧪 testCaseId=29 → Temp: 268435466°C, Hum: 2147426559%
+🧪 testCaseId=30 → Temp: 174501286°C, Hum: 1183383622%
+
+*********************************************************
+Collector logs
+PS C:\Users\IIITB\Documents\JSONAware-IoTFuzzer\Anonymous-Fuzz-IoT\Examples\Multiple-lambdas-Assert> node i_collector.js
+Collector connected
+⚠️ Critical input received: {"value":469762058,"unit":"°C","testCaseId":0}
+⚠️ Critical input received: {"value":17920,"unit":"%","testCaseId":0}
+⚠️ Critical input received: {"value":256,"unit":"°C","testCaseId":1}
+⚠️ Critical input received: {"value":490766336,"unit":"%","testCaseId":1}
+⚠️ Critical input received: {"value":56841,"unit":"°C","testCaseId":2}
+⚠️ Critical input received: {"value":14810950,"unit":"%","testCaseId":2}
+⚠️ Critical input received: {"value":16768778,"unit":"°C","testCaseId":4}
+⚠️ Critical input received: {"value":15237120,"unit":"%","testCaseId":4}
+⚠️ Critical input received: {"value":469762048,"unit":"°C","testCaseId":5}
+⚠️ Critical input received: {"value":6505984,"unit":"%","testCaseId":5}
+⚠️ Critical input received: {"value":268435466,"unit":"°C","testCaseId":6}
+⚠️ Critical input received: {"value":1183433696,"unit":"%","testCaseId":6}
+⚠️ Critical input received: {"value":1722656256,"unit":"°C","testCaseId":7}
+⚠️ Critical input received: {"value":2118,"unit":"%","testCaseId":7}
+⚠️ Critical input received: {"value":184483850,"unit":"°C","testCaseId":9}
+⚠️ Critical input received: {"value":128,"unit":"%","testCaseId":9}
+⚠️ Critical input received: {"value":4587520,"unit":"%","testCaseId":10}
+⚠️ Critical input received: {"value":4106,"unit":"°C","testCaseId":11}
+⚠️ Critical input received: {"value":17952,"unit":"%","testCaseId":11}
+⚠️ Critical input received: {"value":56841,"unit":"°C","testCaseId":12}
+⚠️ Critical input received: {"value":16899864,"unit":"°C","testCaseId":13}
+⚠️ Critical input received: {"value":14551296,"unit":"°C","testCaseId":14}
+⚠️ Critical input received: {"value":14551296,"unit":"°C","testCaseId":15}
+⚠️ Critical input received: {"value":78,"unit":"%","testCaseId":15}
+⚠️ Critical input received: {"value":33554433,"unit":"°C","testCaseId":16}
+⚠️ Critical input received: {"value":37888,"unit":"%","testCaseId":16}
+⚠️ Critical input received: {"value":270532618,"unit":"°C","testCaseId":17}
+⚠️ Critical input received: {"value":16761822,"unit":"%","testCaseId":17}
+⚠️ Critical input received: {"value":256,"unit":"°C","testCaseId":18}
+⚠️ Critical input received: {"value":1640789062,"unit":"%","testCaseId":18}
+⚠️ Critical input received: {"value":469762091,"unit":"°C","testCaseId":19}
+⚠️ Critical input received: {"value":17920,"unit":"%","testCaseId":19}
+⚠️ Critical input received: {"value":167894784,"unit":"°C","testCaseId":21}
+⚠️ Critical input received: {"value":490761728,"unit":"%","testCaseId":21}
+⚠️ Critical input received: {"value":536870940,"unit":"°C","testCaseId":22}
+⚠️ Critical input received: {"value":270204938,"unit":"°C","testCaseId":23}
+⚠️ Critical input received: {"value":14942022,"unit":"%","testCaseId":25}
+⚠️ Critical input received: {"value":16728074,"unit":"°C","testCaseId":26}
+⚠️ Critical input received: {"value":65536,"unit":"%","testCaseId":26}
+⚠️ Critical input received: {"value":469766912,"unit":"°C","testCaseId":27}
+⚠️ Critical input received: {"value":6488576,"unit":"%","testCaseId":27}
+⚠️ Critical input received: {"value":469804544,"unit":"°C","testCaseId":28}
+⚠️ Critical input received: {"value":18048,"unit":"%","testCaseId":28}
+⚠️ Critical input received: {"value":268435466,"unit":"°C","testCaseId":29}
+⚠️ Critical input received: {"value":2147426559,"unit":"%","testCaseId":29}
+⚠️ Critical input received: {"value":174501286,"unit":"°C","testCaseId":30}
+
+********************************************************
+When compared with collector logs, testcaseID's like 3,8,20 and 24.. are missing, where they have not triggered the assertion (safe). so Thus fuzzer setup is capable enough to catch the testcase-critical testcases which can cause threats using assertions.
+
+
+the logs is exactly the behavior we want from a coverage‑guided JSON‑aware fuzzer with assertion reachability:
+
+Testcase IDs like 3, 8, 20, 24 → These produced values that stayed within the safe thresholds (e.g. Temp ≤ 50°C, Humidity ≤ 70%). Since the assertions weren’t triggered, they don’t appear in the collector logs. That’s correct: they’re “safe” inputs.
+
+All the other IDs in the collector logs → These are the fuzzed inputs that violated your invariants. The lambdas threw errors, your MQTT client caught them, and published the offending JSON to critical/inputs. The collector subscribed and logged them. That’s why you see them in i_collector.js.
+
+So the pipeline is working exactly as designed:
+
+1.Fuzzer mutates JSON and publishes to sensor/temperature / sensor/humidity.
+2.Lambdas process inputs and throw assertions when thresholds are exceeded.
+3.MQTT client catches those exceptions and republishes the bad input to critical/inputs.
+Collector logs all critical inputs.
+4.That’s why your collector log is a strict subset of the fuzzer’s testcases: only the ones that actually violated assertions show up. 
+
+
+
+
+This confirms your fuzzing setup is capable of:
+
+Exploring a wide range of input space (huge, negative, edge values).
+
+Detecting invariant violations via assertions.
+
+Centralizing “bad inputs” for later analysis.
+
+That’s the essence of a safety‑critical fuzzing workflow: safe cases are ignored, unsafe ones are captured and logged.

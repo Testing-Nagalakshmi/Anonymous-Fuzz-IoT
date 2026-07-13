@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "istanbul-lib-coverage": "^3.2.2",
+    "istanbul-lib-instrument": "^6.0.3",
+    "mongoose": "^9.0.0",
+    "mqtt": "^5.14.1"
+  }
+}

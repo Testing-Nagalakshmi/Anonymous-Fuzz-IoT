@@ -1,0 +1,7 @@
+{
+  "thingName": "SmartHeartRateMonitor",
+  "attributes": {
+    "deviceType": "HeartRateMonitor",
+    "location": "Room 101"
+  }
+}

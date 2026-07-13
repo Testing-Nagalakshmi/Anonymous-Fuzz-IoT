@@ -1,0 +1,11 @@
+{
+  "state": {
+    "reported": {
+      "heartRate": 72,
+      "batteryLevel": 95
+    },
+    "desired": {
+      "batteryLevel": 100
+    }
+  }
+}
